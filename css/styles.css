@@ -212,6 +212,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color); 
+    cursor: pointer;
 }
 
 .btn-filters:focus,

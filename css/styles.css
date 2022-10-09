@@ -1,0 +1,241 @@
+/* GENERAL STYLES*/
+:root {
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+    --after-text-color: #757575;
+    --logo-text-color: #000000;
+    --headline-text-clor: #FFFFFF;
+    --logo-font: 'Raleway', sans-serif;
+    --contact-footer-color: rgba(255, 255, 255, 0.6);
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none ;
+}
+
+.link:hover, .link:focus {
+    color: var(--accent-color);
+}
+
+/* Верхня лінія */
+
+.logo-blue, .logo-black, .logo-white {   
+    font-family: var(--logo-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-black {
+    color: var(--logo-text-color)
+}
+
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--title-text-color)
+    
+}
+
+.header-nav-link:hover, 
+.header-nav-link:focus {
+    color: var(--accent-color);
+
+}
+
+.header-mailto-link, .header-tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--after-text-color)
+}
+
+/* Шапка */
+
+.hat-headline-h {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--headline-text-clor);
+    background: #2F303A;
+}
+
+.hat-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--headline-text-clor);
+}
+
+.hat-btn:focus,
+.hat-btn:hover{
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Особливості */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
+.features-title-hhh {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.features-after-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--after-text-color);
+}
+
+/* Чим ми займаємося */
+
+.engaged-title-hh {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.team-title-hh {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    }
+
+.team-title-hhh {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    }
+
+.team-after-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--after-text-color);
+}
+
+/* Підвал */
+
+.footer {
+    background: #2F303A;
+}
+
+.logo-white {
+    color: var(--headline-text-clor)
+}
+
+.footer-maps-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--headline-text-clor);
+}
+
+.footer-mailto-link, .footer-tel-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Page 2 */
+
+/* Верхня лінія */
+
+/* Фільтри */
+
+.btn-filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color); 
+}
+
+.btn-filters:focus,
+.btn-filters:hover {
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.filters-title-hh {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    }
+
+.filters-after-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--after-text-color);
+}
+
+

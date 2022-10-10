@@ -25,7 +25,12 @@ body {
     color: var(--accent-color);
 }
 
+
 /* Верхня лінія */
+
+.header-logo {
+    background: var(--headline-text-clor);
+}
 
 .logo-blue, .logo-black, .logo-white {   
     font-family: var(--logo-font);
@@ -67,6 +72,10 @@ body {
 
 /* Шапка */
 
+.section-hat {
+    background: #2F303A;
+}
+
 .hat-headline-h {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -76,7 +85,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--headline-text-clor);
-    background: #2F303A;
 }
 
 .hat-btn {
@@ -89,6 +97,9 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--headline-text-clor);
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .hat-btn:focus,
@@ -100,6 +111,10 @@ body {
 }
 
 /* Особливості */
+
+.section-features, .section-engaged {
+    background: #F5F5F5;
+}
 
 .visually-hidden {
     position: absolute;
@@ -145,6 +160,16 @@ body {
 
 /* Наша команда */
 
+.team {
+    background: #F5F4FA;
+}
+
+.team-list {
+    background: var(--headline-text-clor);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-title-hh {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -183,6 +208,10 @@ body {
     color: var(--headline-text-clor)
 }
 
+.contact-footer {
+    font-style: normal;
+}
+
 .footer-maps-link {
     font-weight: 400;
     font-size: 14px;
@@ -205,7 +234,12 @@ body {
 
 /* Фільтри */
 
+.section-filters {
+    background: #F5F5F5;
+}
+
 .btn-filters {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
@@ -213,6 +247,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color); 
     cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 .btn-filters:focus,
@@ -221,6 +257,11 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: #FFFFFF;
+}
+
+.filters-list {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
 .filters-title-hh {

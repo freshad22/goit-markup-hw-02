@@ -7,6 +7,7 @@
     --headline-text-clor: #FFFFFF;
     --logo-font: 'Raleway', sans-serif;
     --contact-footer-color: rgba(255, 255, 255, 0.6);
+    --btn: #188CE8;
 
 }
 body {
@@ -97,14 +98,14 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--headline-text-clor);
-    background: #188CE8;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
 .hat-btn:focus,
 .hat-btn:hover{
-    background: var(--accent-color);
+    background: var(--btn);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -113,7 +114,7 @@ body {
 /* Особливості */
 
 .section-features, .section-engaged {
-    background: #F5F5F5;
+    background: var(--headline-text-clor);
 }
 
 .visually-hidden {
@@ -161,7 +162,7 @@ body {
 /* Наша команда */
 
 .team {
-    background: #F5F4FA;
+    background: var(--headline-text-clor);
 }
 
 .team-list {
@@ -235,7 +236,7 @@ body {
 /* Фільтри */
 
 .section-filters {
-    background: #F5F5F5;
+    background: var(--headline-text-clor);
 }
 
 .btn-filters {
@@ -257,11 +258,6 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: #FFFFFF;
-}
-
-.filters-list {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
 }
 
 .filters-title-hh {
